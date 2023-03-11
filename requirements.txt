@@ -1,3 +1,4 @@
 transformers
 pynput
 setuptools
+torch
