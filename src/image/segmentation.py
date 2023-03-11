@@ -19,4 +19,5 @@ masks_queries_logits = outputs.masks_queries_logits
 # we refer to the demo notebooks for visualization (see "Resources" section in the MaskFormer docs)
 predicted_semantic_map = processor.post_process_semantic_segmentation(outputs, target_sizes=[image.size[::-1]])[0]
 
-print(predicted_semantic_map)
+print(masks_queries_logits)
+print(class_queries_logits)
