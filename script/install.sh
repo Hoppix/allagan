@@ -6,11 +6,11 @@ cd "$(dirname "$0")"
 
 main() {
     git clone https://github.com/Hoppix/allagan/
-    pushd touchme
+    pushd allagan
     pip install -r requirements.txt
     pip install .
     popd
-    touchme --help
+    allagan --help
 }
 
 # call function with all given parameters
