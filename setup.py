@@ -7,7 +7,7 @@ install_requires = [
 
 setuptools.setup(
     name="allagan",
-    python_requires=">=3.7.10",
+    python_requires=">=3.7.0",
     description="A simple macro tool for FFXIV",
     version="0.1",
     packages=setuptools.find_packages(),

@@ -2,3 +2,5 @@ transformers
 pynput
 setuptools
 torch
+pillow
+scipy
